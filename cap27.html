@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Capítulo 27 – OA-DA</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-green-50 min-h-screen flex flex-col items-center p-6">
+  <h1 class="text-3xl font-bold mb-8 text-black">Capítulo 27: OA-DA</h1>
+
+  <form id="quizForm" class="w-full max-w-3xl space-y-6 bg-white p-6 rounded-lg shadow-lg">
+    <!-- Preguntas 1–7 (OAL, OAC, brechas, DA) :contentReference[oaicite:0]{index=0} -->
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">1. ¿Qué representa la curva de oferta agregada de largo plazo (OAL)?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q1" value="A" class="mr-2"/>A) Una curva con pendiente negativa</label>
+      <label class="flex items-center"><input type="radio" name="q1" value="B" class="mr-2"/>B) Una relación entre nivel de precios y demanda agregada</label>
+      <label class="flex items-center"><input type="radio" name="q1" value="C" class="mr-2"/>C) Una línea horizontal al nivel de precios base</label>
+      <label class="flex items-center"><input type="radio" name="q1" value="D" class="mr-2"/>D) Una línea vertical al nivel del PIB potencial</label>
+    </div>
+
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">2. ¿Qué efecto tiene un aumento en el nivel de precios sobre la oferta agregada de corto plazo (OAC)?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q2" value="A" class="mr-2"/>A) Disminuye la producción</label>
+      <label class="flex items-center"><input type="radio" name="q2" value="B" class="mr-2"/>B) La curva se vuelve vertical</label>
+      <label class="flex items-center"><input type="radio" name="q2" value="C" class="mr-2"/>C) Aumenta la cantidad ofrecida de PIB real</label>
+      <label class="flex items-center"><input type="radio" name="q2" value="D" class="mr-2"/>D) No genera ningún efecto</label>
+    </div>
+
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">3. ¿Qué ocurre cuando el PIB real excede al PIB potencial?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q3" value="A" class="mr-2"/>A) Brecha recesiva</label>
+      <label class="flex items-center"><input type="radio" name="q3" value="B" class="mr-2"/>B) Inflación cero</label>
+      <label class="flex items-center"><input type="radio" name="q3" value="C" class="mr-2"/>C) Brecha inflacionaria</label>
+      <label class="flex items-center"><input type="radio" name="q3" value="D" class="mr-2"/>D) Equilibrio de pleno empleo</label>
+    </div>
+
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">4. ¿Cuál es un factor que NO modifica la oferta agregada?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q4" value="A" class="mr-2"/>A) Aumento del capital humano</label>
+      <label class="flex items-center"><input type="radio" name="q4" value="B" class="mr-2"/>B) Cambio tecnológico</label>
+      <label class="flex items-center"><input type="radio" name="q4" value="C" class="mr-2"/>C) Nivel de precios</label>
+      <label class="flex items-center"><input type="radio" name="q4" value="D" class="mr-2"/>D) Mayor fuerza laboral</label>
+    </div>
+
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">5. ¿Qué ocurre cuando el salario nominal aumenta?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q5" value="A" class="mr-2"/>A) Aumenta la OAC</label>
+      <label class="flex items-center"><input type="radio" name="q5" value="B" class="mr-2"/>B) La OAL se desplaza</label>
+      <label class="flex items-center"><input type="radio" name="q5" value="C" class="mr-2"/>C) La OAC se desplaza a la izquierda</label>
+      <label class="flex items-center"><input type="radio" name="q5" value="D" class="mr-2"/>D) La demanda agregada se incrementa</label>
+    </div>
+
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">6. ¿Qué compone la demanda agregada?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q6" value="A" class="mr-2"/>A) Solo consumo e inversión</label>
+      <label class="flex items-center"><input type="radio" name="q6" value="B" class="mr-2"/>B) C + I + G + (X − M)</label>
+      <label class="flex items-center"><input type="radio" name="q6" value="C" class="mr-2"/>C) Consumo e impuestos</label>
+      <label class="flex items-center"><input type="radio" name="q6" value="D" class="mr-2"/>D) Renta nacional y precios</label>
+    </div>
+
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">7. ¿Qué explica la pendiente negativa de la curva de demanda agregada?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q7" value="A" class="mr-2"/>A) Costos de producción</label>
+      <label class="flex items-center"><input type="radio" name="q7" value="B" class="mr-2"/>B) Efecto riqueza y sustitución</label>
+      <label class="flex items-center"><input type="radio" name="q7" value="C" class="mr-2"/>C) Precio del petróleo</label>
+      <label class="flex items-center"><input type="radio" name="q7" value="D" class="mr-2"/>D) Aumento del PIB potencial</label>
+    </div>
+
+    <!-- Preguntas 8–11 (movimientos DA / equilibrios) :contentReference[oaicite:1]{index=1} -->
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">8. ¿Cuál NO es un factor que desplaza la curva de demanda agregada?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q8" value="A" class="mr-2"/>A) Expectativas</label>
+      <label class="flex items-center"><input type="radio" name="q8" value="B" class="mr-2"/>B) Política fiscal</label>
+      <label class="flex items-center"><input type="radio" name="q8" value="C" class="mr-2"/>C) Nivel de precios</label>
+      <label class="flex items-center"><input type="radio" name="q8" value="D" class="mr-2"/>D) Ingreso externo</label>
+    </div>
+
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">9. ¿Qué hace un aumento en la cantidad de dinero?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q9" value="A" class="mr-2"/>A) Reduce el PIB potencial</label>
+      <label class="flex items-center"><input type="radio" name="q9" value="B" class="mr-2"/>B) Aumenta la demanda agregada</label>
+      <label class="flex items-center"><input type="radio" name="q9" value="C" class="mr-2"/>C) Disminuye el nivel de precios</label>
+      <label class="flex items-center"><input type="radio" name="q9" value="D" class="mr-2"/>D) Contrae el consumo</label>
+    </div>
+
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">10. ¿Qué provoca una reducción en el ingreso extranjero?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q10" value="A" class="mr-2"/>A) Aumenta exportaciones</label>
+      <label class="flex items-center"><input type="radio" name="q10" value="B" class="mr-2"/>B) Reduce el PIB potencial</label>
+      <label class="flex items-center"><input type="radio" name="q10" value="C" class="mr-2"/>C) Reduce la demanda agregada</label>
+      <label class="flex items-center"><input type="radio" name="q10" value="D" class="mr-2"/>D) Incrementa las importaciones</label>
+    </div>
+
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">11. ¿Qué ocurre en el equilibrio macroeconómico de corto plazo?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q11" value="A" class="mr-2"/>A) DA = OAL</label>
+      <label class="flex items-center"><input type="radio" name="q11" value="B" class="mr-2"/>B) PIB real = PIB potencial</label>
+      <label class="flex items-center"><input type="radio" name="q11" value="C" class="mr-2"/>C) DA = OAC</label>
+      <label class="flex items-center"><input type="radio" name="q11" value="D" class="mr-2"/>D) Precios constantes</label>
+    </div>
+
+    <!-- Preguntas 12–15 (equilibrio largo, petróleo, brechas, keynesianos) :contentReference[oaicite:2]{index=2} -->
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">12. ¿Qué sucede en una economía en equilibrio de largo plazo?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q12" value="A" class="mr-2"/>A) Inflación constante</label>
+      <label class="flex items-center"><input type="radio" name="q12" value="B" class="mr-2"/>B) El PIB real es menor al PIB potencial</label>
+      <label class="flex items-center"><input type="radio" name="q12" value="C" class="mr-2"/>C) PIB real = PIB potencial</label>
+      <label class="flex items-center"><input type="radio" name="q12" value="D" class="mr-2"/>D) La DA excede a la OAC</label>
+    </div>
+
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">13. ¿Cuál es el efecto de un aumento del precio del petróleo?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q13" value="A" class="mr-2"/>A) Aumenta la demanda agregada</label>
+      <label class="flex items-center"><input type="radio" name="q13" value="B" class="mr-2"/>B) Desplaza OAC a la derecha</label>
+      <label class="flex items-center"><input type="radio" name="q13" value="C" class="mr-2"/>C) Disminuye OAC (se desplaza a la izquierda)</label>
+      <label class="flex items-center"><input type="radio" name="q13" value="D" class="mr-2"/>D) Aumenta el PIB potencial</label>
+    </div>
+
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">14. ¿Cómo se denomina el punto donde el PIB real < PIB potencial?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q14" value="A" class="mr-2"/>A) Pleno empleo</label>
+      <label class="flex items-center"><input type="radio" name="q14" value="B" class="mr-2"/>B) Brecha recesiva</label>
+      <label class="flex items-center"><input type="radio" name="q14" value="C" class="mr-2"/>C) Brecha inflacionaria</label>
+      <label class="flex items-center"><input type="radio" name="q14" value="D" class="mr-2"/>D) Equilibrio dinámico</label>
+    </div>
+
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">15. ¿Qué propone la escuela keynesiana?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q15" value="A" class="mr-2"/>A) La economía siempre se autorregula</label>
+      <label class="flex items-center"><input type="radio" name="q15" value="B" class="mr-2"/>B) La inflación es causada por la oferta</label>
+      <label class="flex items-center"><input type="radio" name="q15" value="C" class="mr-2"/>C) Se necesita política fiscal y monetaria activa</label>
+      <label class="flex items-center"><input type="radio" name="q15" value="D" class="mr-2"/>D) El mercado es perfecto</label>
+    </div>
+
+    <button type="button" id="submitBtn" class="mt-6 bg-green-600 text-white px-6 py-3 rounded hover:bg-green-700 transition">
+      Enviar Respuestas
+    </button>
+  </form>
+
+  <div id="resultado" class="w-full max-w-3xl mt-8 bg-white p-6 rounded-lg shadow-lg hidden"></div>
+
+  <script>
+    const quizForm = document.getElementById('quizForm');
+    const resultado = document.getElementById('resultado');
+    const correctAnswers = {
+      1:'D', 2:'C', 3:'C', 4:'C', 5:'C',
+      6:'B', 7:'B', 8:'C', 9:'B', 10:'C',
+      11:'C', 12:'C', 13:'C', 14:'B', 15:'C'
+    };
+
+    document.getElementById('submitBtn').addEventListener('click', () => {
+      let feedback = '';
+      let correctCount = 0;
+      for (let i = 1; i <= 15; i++) {
+        const ans = quizForm.elements['q'+i].value;
+        if (ans === correctAnswers[i]) {
+          correctCount++;
+          feedback += `<p class="text-green-600">Pregunta ${i} correcta.</p>`;
+        } else {
+          feedback += `<p class="text-red-600">Pregunta ${i} incorrecta. La respuesta correcta es “${correctAnswers[i]}”.</p>`;
+        }
+      }
+      feedback += `<p class="font-semibold mt-4">Puntuación: ${correctCount} de 15</p>`;
+      resultado.innerHTML = feedback;
+      resultado.classList.remove('hidden');
+      resultado.scrollIntoView({ behavior: 'smooth' });
+    });
+  </script>
+</body>
+</html>

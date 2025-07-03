@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Capítulo 28 – Multiplicadores del Gasto</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-green-50 min-h-screen flex flex-col items-center p-6">
+  <h1 class="text-3xl font-bold mb-8 text-black">Capítulo 28: Multiplicadores del Gasto</h1>
+
+  <form id="quizForm" class="w-full max-w-3xl space-y-6 bg-white p-6 rounded-lg shadow-lg">
+    <!-- 1 -->
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">1. ¿Qué componente del gasto agregado varía con el ingreso real?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q1" value="A" class="mr-2"/>A) Exportaciones</label>
+      <label class="flex items-center"><input type="radio" name="q1" value="B" class="mr-2"/>B) Inversión</label>
+      <label class="flex items-center"><input type="radio" name="q1" value="C" class="mr-2"/>C) Gasto inducido</label>
+      <label class="flex items-center"><input type="radio" name="q1" value="D" class="mr-2"/>D) Gasto público</label>
+    </div>
+
+    <!-- 2 -->
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">2. ¿Qué ocurre cuando el gasto planeado excede al PIB real?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q2" value="A" class="mr-2"/>A) Hay equilibrio</label>
+      <label class="flex items-center"><input type="radio" name="q2" value="B" class="mr-2"/>B) El gasto autónomo se vuelve negativo</label>
+      <label class="flex items-center"><input type="radio" name="q2" value="C" class="mr-2"/>C) Se acumulan inventarios no planeados</label>
+      <label class="flex items-center"><input type="radio" name="q2" value="D" class="mr-2"/>D) Disminuyen los inventarios no planeados</label>
+    </div>
+
+    <!-- 3 -->
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">3. ¿Qué significa un cambio no planeado en los inventarios?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q3" value="A" class="mr-2"/>A) Ajuste programado</label>
+      <label class="flex items-center"><input type="radio" name="q3" value="B" class="mr-2"/>B) Equilibrio</label>
+      <label class="flex items-center"><input type="radio" name="q3" value="C" class="mr-2"/>C) Diferencia entre producción y ventas</label>
+      <label class="flex items-center"><input type="radio" name="q3" value="D" class="mr-2"/>D) No tiene efecto</label>
+    </div>
+
+    <!-- 4 -->
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">4. ¿Cuál es el gasto que ocurre incluso si el ingreso real fuera cero?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q4" value="A" class="mr-2"/>A) Gasto total</label>
+      <label class="flex items-center"><input type="radio" name="q4" value="B" class="mr-2"/>B) Gasto inducido</label>
+      <label class="flex items-center"><input type="radio" name="q4" value="C" class="mr-2"/>C) Gasto autónomo</label>
+      <label class="flex items-center"><input type="radio" name="q4" value="D" class="mr-2"/>D) Inversión neta</label>
+    </div>
+
+    <!-- 5 -->
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">5. ¿Cuál es la propensión marginal a consumir si por cada S/ 1 adicional de ingreso se consumen S/ 0.80?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q5" value="A" class="mr-2"/>A) 0.20</label>
+      <label class="flex items-center"><input type="radio" name="q5" value="B" class="mr-2"/>B) 0.80</label>
+      <label class="flex items-center"><input type="radio" name="q5" value="C" class="mr-2"/>C) 1.20</label>
+      <label class="flex items-center"><input type="radio" name="q5" value="D" class="mr-2"/>D) N.A.</label>
+    </div>
+
+    <!-- 6 -->
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">6. ¿Cuál de los siguientes cambios desplaza la curva de gasto agregado hacia arriba?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q6" value="A" class="mr-2"/>A) Aumento en impuestos</label>
+      <label class="flex items-center"><input type="radio" name="q6" value="B" class="mr-2"/>B) Aumento en la PMC</label>
+      <label class="flex items-center"><input type="radio" name="q6" value="C" class="mr-2"/>C) Aumento en el gasto público</label>
+      <label class="flex items-center"><input type="radio" name="q6" value="D" class="mr-2"/>D) Reducción del ingreso real</label>
+    </div>
+
+    <!-- 7 -->
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">7. ¿Qué representa gráficamente el punto de intersección entre la curva GA y la línea de 45°?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q7" value="A" class="mr-2"/>A) Pleno empleo</label>
+      <label class="flex items-center"><input type="radio" name="q7" value="B" class="mr-2"/>B) Estancamiento</label>
+      <label class="flex items-center"><input type="radio" name="q7" value="C" class="mr-2"/>C) Equilibrio</label>
+      <label class="flex items-center"><input type="radio" name="q7" value="D" class="mr-2"/>D) Máxima producción</label>
+    </div>
+
+    <!-- 8 -->
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">8. ¿Qué factor reduce el multiplicador del gasto en economías abiertas?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q8" value="A" class="mr-2"/>A) Alta PMC</label>
+      <label class="flex items-center"><input type="radio" name="q8" value="B" class="mr-2"/>B) Baja propensión a importar</label>
+      <label class="flex items-center"><input type="radio" name="q8" value="C" class="mr-2"/>C) Aumento del gasto autónomo</label>
+      <label class="flex items-center"><input type="radio" name="q8" value="D" class="mr-2"/>D) Alta propensión marginal a importar</label>
+    </div>
+
+    <!-- 9 -->
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">9. ¿Qué ocurre si el gasto agregado planeado es menor que el PIB real?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q9" value="A" class="mr-2"/>A) Se reduce ingreso disponible</label>
+      <label class="flex items-center"><input type="radio" name="q9" value="B" class="mr-2"/>B) Aumentan inventarios no planeados</label>
+      <label class="flex items-center"><input type="radio" name="q9" value="C" class="mr-2"/>C) Baja gasto público</label>
+      <label class="flex items-center"><input type="radio" name="q9" value="D" class="mr-2"/>D) Baja la PMC</label>
+    </div>
+
+    <!-- 10 -->
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">10. ¿Cuál es el principal amplificador del gasto autónomo?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q10" value="A" class="mr-2"/>A) Gasto autónomo</label>
+      <label class="flex items-center"><input type="radio" name="q10" value="B" class="mr-2"/>B) Nivel de precios</label>
+      <label class="flex items-center"><input type="radio" name="q10" value="C" class="mr-2"/>C) Gasto inducido</label>
+      <label class="flex items-center"><input type="radio" name="q10" value="D" class="mr-2"/>D) Exportaciones</label>
+    </div>
+
+    <!-- 11 -->
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">11. ¿Por qué no se alcanza automáticamente el pleno empleo en el modelo de gasto?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q11" value="A" class="mr-2"/>A) El gasto inducido lo evita</label>
+      <label class="flex items-center"><input type="radio" name="q11" value="B" class="mr-2"/>B) El gasto puede ser insuficiente</label>
+      <label class="flex items-center"><input type="radio" name="q11" value="C" class="mr-2"/>C) El consumo es muy alto</label>
+      <label class="flex items-center"><input type="radio" name="q11" value="D" class="mr-2"/>D) El PIB potencial es bajo</label>
+    </div>
+
+    <!-- 12 -->
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">12. Si la PMC = 0.75, tasa impositiva 20% y propensión marginal a importar 0.25, ¿cuál es el multiplicador?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q12" value="A" class="mr-2"/>A) 2.5</label>
+      <label class="flex items-center"><input type="radio" name="q12" value="B" class="mr-2"/>B) 2</label>
+      <label class="flex items-center"><input type="radio" name="q12" value="C" class="mr-2"/>C) 1.92</label>
+      <label class="flex items-center"><input type="radio" name="q12" value="D" class="mr-2"/>D) 1.6</label>
+    </div>
+
+    <!-- 13 -->
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">13. ¿Qué relación tienen los inventarios no planeados con el equilibrio?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q13" value="A" class="mr-2"/>A) No son relevantes</label>
+      <label class="flex items-center"><input type="radio" name="q13" value="B" class="mr-2"/>B) Miden exportaciones</label>
+      <label class="flex items-center"><input type="radio" name="q13" value="C" class="mr-2"/>C) Ajustan producción</label>
+      <label class="flex items-center"><input type="radio" name="q13" value="D" class="mr-2"/>D) No afectan GA</label>
+    </div>
+
+    <!-- 14 -->
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">14. Si la PMC se mantiene constante pero la propensión marginal a importar aumenta, ¿qué ocurre con el multiplicador?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q14" value="A" class="mr-2"/>A) Aumenta</label>
+      <label class="flex items-center"><input type="radio" name="q14" value="B" class="mr-2"/>B) Disminuye</label>
+      <label class="flex items-center"><input type="radio" name="q14" value="C" class="mr-2"/>C) Se mantiene constante</label>
+      <label class="flex items-center"><input type="radio" name="q14" value="D" class="mr-2"/>D) Se vuelve infinito</label>
+    </div>
+
+    <!-- 15 -->
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">15. En el modelo de gasto agregado, ¿qué condición debe cumplirse para que el equilibrio de gasto coincida con el PIB potencial?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q15" value="A" class="mr-2"/>A) Gasto autónomo igual a cero</label>
+      <label class="flex items-center"><input type="radio" name="q15" value="B" class="mr-2"/>B) Ausencia de importaciones</label>
+      <label class="flex items-center"><input type="radio" name="q15" value="C" class="mr-2"/>C) Gasto agregado planeado igual al PIB potencial</label>
+      <label class="flex items-center"><input type="radio" name="q15" value="D" class="mr-2"/>D) Tasa de interés igual a cero</label>
+    </div>
+
+    <button type="button" id="submitBtn" class="mt-6 bg-green-600 text-white px-6 py-3 rounded hover:bg-green-700 transition">
+      Enviar Respuestas
+    </button>
+  </form>
+
+  <div id="resultado" class="w-full max-w-3xl mt-8 bg-white p-6 rounded-lg shadow-lg hidden"></div>
+
+  <script>
+    const quizForm = document.getElementById('quizForm');
+    const resultado = document.getElementById('resultado');
+    const correctAnswers = {
+      1:'C', 2:'D', 3:'C', 4:'C', 5:'B',
+      6:'C', 7:'C', 8:'D', 9:'B', 10:'C',
+      11:'B', 12:'D', 13:'C', 14:'B', 15:'C'
+    };
+
+    document.getElementById('submitBtn').addEventListener('click', () => {
+      let feedback = '';
+      let correctCount = 0;
+
+      for (let i = 1; i <= 15; i++) {
+        const ans = quizForm.elements['q'+i].value;
+        if (ans === correctAnswers[i]) {
+          correctCount++;
+          feedback += `<p class="text-green-600">Pregunta ${i} correcta.</p>`;
+        } else {
+          feedback += `<p class="text-red-600">Pregunta ${i} incorrecta. La respuesta correcta es “${correctAnswers[i]}”.</p>`;
+        }
+      }
+
+      feedback += `<p class="font-semibold mt-4">Puntuación: ${correctCount} de 15</p>`;
+      resultado.innerHTML = feedback;
+      resultado.classList.remove('hidden');
+      resultado.scrollIntoView({ behavior: 'smooth' });
+    });
+  </script>
+</body>
+</html>

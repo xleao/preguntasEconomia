@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Capítulo 26 – Tipo de Cambio y Divisas</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-green-50 min-h-screen flex flex-col items-center p-6">
+  <h1 class="text-3xl font-bold mb-8 text-black">Capítulo 26: Tipo de Cambio y Divisas</h1>
+
+  <form id="quizForm" class="w-full max-w-3xl space-y-6 bg-white p-6 rounded-lg shadow-lg">
+    <!-- Pregunta 1 -->
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">1. ¿Qué determina el tipo de cambio de una moneda?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q1" value="A" class="mr-2"/>A) La tasa de inflación del país emisor</label>
+      <label class="flex items-center"><input type="radio" name="q1" value="B" class="mr-2"/>B) La oferta y demanda de divisas en el mercado</label>
+      <label class="flex items-center"><input type="radio" name="q1" value="C" class="mr-2"/>C) El gobierno del país emisor</label>
+      <label class="flex items-center"><input type="radio" name="q1" value="D" class="mr-2"/>D) Los bancos centrales únicamente</label>
+    </div>
+
+    <!-- Pregunta 2 -->
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">2. ¿Qué sucede cuando el tipo de cambio sube de 104 a 110 yenes por dólar?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q2" value="A" class="mr-2"/>A) El yen se aprecia</label>
+      <label class="flex items-center"><input type="radio" name="q2" value="B" class="mr-2"/>B) El dólar se deprecia</label>
+      <label class="flex items-center"><input type="radio" name="q2" value="C" class="mr-2"/>C) El dólar se aprecia</label>
+      <label class="flex items-center"><input type="radio" name="q2" value="D" class="mr-2"/>D) El yen se deprecia</label>
+    </div>
+
+    <!-- Pregunta 3 -->
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">3. ¿Qué efecto tiene una reducción en las tasas de interés en EE. UU. sobre el mercado de divisas?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q3" value="A" class="mr-2"/>A) Aumenta la demanda de dólares</label>
+      <label class="flex items-center"><input type="radio" name="q3" value="B" class="mr-2"/>B) Disminuye la oferta de dólares</label>
+      <label class="flex items-center"><input type="radio" name="q3" value="C" class="mr-2"/>C) Disminuye la demanda de dólares</label>
+      <label class="flex items-center"><input type="radio" name="q3" value="D" class="mr-2"/>D) No tiene efecto sobre el tipo de cambio</label>
+    </div>
+
+    <!-- Pregunta 4 -->
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">4. ¿Qué ocurre cuando el dólar se deprecia frente al euro?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q4" value="A" class="mr-2"/>A) Las exportaciones de EE. UU. aumentan</label>
+      <label class="flex items-center"><input type="radio" name="q4" value="B" class="mr-2"/>B) Las importaciones a EE. UU. aumentan</label>
+      <label class="flex items-center"><input type="radio" name="q4" value="C" class="mr-2"/>C) Las exportaciones de EE. UU. disminuyen</label>
+      <label class="flex items-center"><input type="radio" name="q4" value="D" class="mr-2"/>D) No cambia el comercio entre ambos países</label>
+    </div>
+
+    <!-- Pregunta 5 -->
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">5. En el contexto de la PPA, ¿qué sucede si el precio de un producto es más bajo en un país que en otro?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q5" value="A" class="mr-2"/>A) La moneda del país con el precio más bajo se aprecia</label>
+      <label class="flex items-center"><input type="radio" name="q5" value="B" class="mr-2"/>B) La moneda del país con el precio más bajo se deprecia</label>
+      <label class="flex items-center"><input type="radio" name="q5" value="C" class="mr-2"/>C) La moneda del país con el precio más alto se aprecia</label>
+      <label class="flex items-center"><input type="radio" name="q5" value="D" class="mr-2"/>D) Ambas monedas se mantienen estables</label>
+    </div>
+
+    <!-- Pregunta 6 -->
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">6. ¿Qué es el arbitraje en el mercado de divisas?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q6" value="A" class="mr-2"/>A) La especulación en el precio de los activos</label>
+      <label class="flex items-center"><input type="radio" name="q6" value="B" class="mr-2"/>B) La compra y venta de activos para obtener una ganancia</label>
+      <label class="flex items-center"><input type="radio" name="q6" value="C" class="mr-2"/>C) La compra de divisas a bajo precio en un mercado y su venta a un precio más alto en otro</label>
+      <label class="flex items-center"><input type="radio" name="q6" value="D" class="mr-2"/>D) La intervención de los bancos centrales en el mercado</label>
+    </div>
+
+    <!-- Pregunta 7 -->
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">7. ¿Qué indica una política de tipo de cambio flotante?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q7" value="A" class="mr-2"/>A) El tipo de cambio es fijado por el gobierno</label>
+      <label class="flex items-center"><input type="radio" name="q7" value="B" class="mr-2"/>B) El tipo de cambio está determinado únicamente por la oferta y demanda</label>
+      <label class="flex items-center"><input type="radio" name="q7" value="C" class="mr-2"/>C) El banco central controla el tipo de cambio</label>
+      <label class="flex items-center"><input type="radio" name="q7" value="D" class="mr-2"/>D) El tipo de cambio varía solo en función de las tasas de interés</label>
+    </div>
+
+    <!-- Pregunta 8 -->
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">8. ¿Qué es la paridad de las tasas de interés?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q8" value="A" class="mr-2"/>A) La igualdad de las tasas de inflación entre dos países</label>
+      <label class="flex items-center"><input type="radio" name="q8" value="B" class="mr-2"/>B) La igualdad de los rendimientos entre dos monedas</label>
+      <label class="flex items-center"><input type="radio" name="q8" value="C" class="mr-2"/>C) La diferencia en tasas de interés entre países que afecta el tipo de cambio</label>
+      <label class="flex items-center"><input type="radio" name="q8" value="D" class="mr-2"/>D) La diferencia entre las tasas de interés y la tasa de inflación</label>
+    </div>
+
+    <!-- Pregunta 9 -->
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">9. ¿Qué efecto tiene la intervención de un banco central para comprar o vender divisas?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q9" value="A" class="mr-2"/>A) El banco central controla completamente el tipo de cambio</label>
+      <label class="flex items-center"><input type="radio" name="q9" value="B" class="mr-2"/>B) Puede influir en la dirección del tipo de cambio, pero no tiene control total</label>
+      <label class="flex items-center"><input type="radio" name="q9" value="C" class="mr-2"/>C) No tiene ningún efecto sobre el tipo de cambio</label>
+      <label class="flex items-center"><input type="radio" name="q9" value="D" class="mr-2"/>D) Solo afecta a las tasas de interés, no al tipo de cambio</label>
+    </div>
+
+    <!-- Pregunta 10 -->
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">10. ¿Qué pasa si un país tiene un déficit en cuenta corriente?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q10" value="A" class="mr-2"/>A) Debe pedir prestado dinero al resto del mundo</label>
+      <label class="flex items-center"><input type="radio" name="q10" value="B" class="mr-2"/>B) Aumenta sus reservas de divisas extranjeras</label>
+      <label class="flex items-center"><input type="radio" name="q10" value="C" class="mr-2"/>C) Tiene un superávit en su balanza de pagos</label>
+      <label class="flex items-center"><input type="radio" name="q10" value="D" class="mr-2"/>D) No necesita realizar ningún ajuste económico</label>
+    </div>
+
+    <!-- Pregunta 11 -->
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">11. En el contexto de la balanza de pagos, ¿qué refleja el saldo de la cuenta corriente?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q11" value="A" class="mr-2"/>A) La cantidad de dinero que un país ha invertido en el extranjero</label>
+      <label class="flex items-center"><input type="radio" name="q11" value="B" class="mr-2"/>B) El valor de las exportaciones netas de un país</label>
+      <label class="flex items-center"><input type="radio" name="q11" value="C" class="mr-2"/>C) La diferencia entre las tasas de interés internas y externas</label>
+      <label class="flex items-center"><input type="radio" name="q11" value="D" class="mr-2"/>D) El nivel de reservas de divisas de un país</label>
+    </div>
+
+    <!-- Pregunta 12 -->
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">12. ¿Qué sucede cuando un país es un prestatario neto?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q12" value="A" class="mr-2"/>A) Tiene un superávit en su cuenta corriente</label>
+      <label class="flex items-center"><input type="radio" name="q12" value="B" class="mr-2"/>B) Solicita más préstamos al extranjero que lo que presta</label>
+      <label class="flex items-center"><input type="radio" name="q12" value="C" class="mr-2"/>C) Su deuda externa es inferior a su inversión externa</label>
+      <label class="flex items-center"><input type="radio" name="q12" value="D" class="mr-2"/>D) Aumenta sus reservas internacionales</label>
+    </div>
+
+    <!-- Pregunta 13 -->
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">13. ¿Cuál de las siguientes políticas cambiarias requiere intervención directa del banco central?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q13" value="A" class="mr-2"/>A) Tipo de cambio flotante</label>
+      <label class="flex items-center"><input type="radio" name="q13" value="B" class="mr-2"/>B) Tipo de cambio fijo</label>
+      <label class="flex items-center"><input type="radio" name="q13" value="C" class="mr-2"/>C) Tipo de cambio flexible</label>
+      <label class="flex items-center"><input type="radio" name="q13" value="D" class="mr-2"/>D) Tipo de cambio flotante controlado</label>
+    </div>
+
+    <!-- Pregunta 14 -->
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">14. ¿Qué determina el tipo de cambio real?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q14" value="A" class="mr-2"/>A) La cantidad de dinero en circulación</label>
+      <label class="flex items-center"><input type="radio" name="q14" value="B" class="mr-2"/>B) Los tipos de interés de los países involucrados</label>
+      <label class="flex items-center"><input type="radio" name="q14" value="C" class="mr-2"/>C) El precio relativo de bienes y servicios entre dos países</label>
+      <label class="flex items-center"><input type="radio" name="q14" value="D" class="mr-2"/>D) La balanza de pagos de un país</label>
+    </div>
+
+    <!-- Pregunta 15 -->
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">15. ¿Qué indica un tipo de cambio de 0.75 euros por dólar?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q15" value="A" class="mr-2"/>A) Se necesitan 0.75 dólares para obtener un euro</label>
+      <label class="flex items-center"><input type="radio" name="q15" value="B" class="mr-2"/>B) Se necesitan 0.75 euros para obtener un dólar</label>
+      <label class="flex items-center"><input type="radio" name="q15" value="C" class="mr-2"/>C) El euro se aprecia frente al dólar</label>
+      <label class="flex items-center"><input type="radio" name="q15" value="D" class="mr-2"/>D) El dólar se aprecia frente al euro</label>
+    </div>
+
+    <button type="button" id="submitBtn" class="mt-6 bg-green-600 text-white px-6 py-3 rounded hover:bg-green-700 transition">
+      Enviar Respuestas
+    </button>
+  </form>
+
+  <div id="resultado" class="w-full max-w-3xl mt-8 bg-white p-6 rounded-lg shadow-lg hidden"></div>
+
+  <script>
+    const quizForm = document.getElementById('quizForm');
+    const resultado = document.getElementById('resultado');
+    const correctAnswers = {
+      1:'B', 2:'C', 3:'C', 4:'A', 5:'B',
+      6:'C', 7:'B', 8:'B', 9:'B', 10:'A',
+      11:'B', 12:'B', 13:'B', 14:'C', 15:'B'
+    };
+
+    document.getElementById('submitBtn').addEventListener('click', () => {
+      let feedback = '';
+      let correctCount = 0;
+
+      for (let i = 1; i <= 15; i++) {
+        const answer = quizForm.elements['q'+i].value;
+        if (answer === correctAnswers[i]) {
+          correctCount++;
+          feedback += `<p class="text-green-600">Pregunta ${i} correcta.</p>`;
+        } else {
+          feedback += `<p class="text-red-600">Pregunta ${i} incorrecta. La respuesta correcta es “${correctAnswers[i]}”.</p>`;
+        }
+      }
+
+      feedback += `<p class="font-semibold mt-4">Puntuación: ${correctCount} de 15</p>`;
+      resultado.innerHTML = feedback;
+      resultado.classList.remove('hidden');
+      resultado.scrollIntoView({ behavior: 'smooth' });
+    });
+  </script>
+</body>
+</html>

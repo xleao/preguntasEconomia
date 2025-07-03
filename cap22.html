@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Capítulo 22 – Desempleo e Inflación</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-green-50 min-h-screen flex flex-col items-center p-6">
+  <h1 class="text-3xl font-bold mb-8 text-black">Capítulo 22: Desempleo e Inflación</h1>
+
+  <form id="quizForm" class="w-full max-w-3xl space-y-6 bg-white p-6 rounded-lg shadow-lg">
+    <!-- Pregunta 1 -->
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">1. ¿De qué se compone el desempleo natural?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q1" value="A" class="mr-2"/>A) Desempleo cíclico y friccional</label>
+      <label class="flex items-center"><input type="radio" name="q1" value="B" class="mr-2"/>B) Desempleo estructural y friccional</label>
+      <label class="flex items-center"><input type="radio" name="q1" value="C" class="mr-2"/>C) Desempleo cíclico y estructural</label>
+      <label class="flex items-center"><input type="radio" name="q1" value="D" class="mr-2"/>D) Solo del desempleo cíclico</label>
+    </div>
+
+    <!-- Pregunta 2 -->
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">2. ¿Qué factor incrementa la tasa de desempleo natural?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q2" value="A" class="mr-2"/>A) Caída del PBI real</label>
+      <label class="flex items-center"><input type="radio" name="q2" value="B" class="mr-2"/>B) Aumento del salario mínimo</label>
+      <label class="flex items-center"><input type="radio" name="q2" value="C" class="mr-2"/>C) Aumento de los salarios de eficiencia</label>
+      <label class="flex items-center"><input type="radio" name="q2" value="D" class="mr-2"/>D) Política monetaria expansiva</label>
+    </div>
+
+    <!-- Pregunta 3 -->
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">3. ¿Qué ocurre en una brecha de producción negativa?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q3" value="A" class="mr-2"/>A) El PBI real supera al potencial y la inflación aumenta</label>
+      <label class="flex items-center"><input type="radio" name="q3" value="B" class="mr-2"/>B) El desempleo natural aumenta</label>
+      <label class="flex items-center"><input type="radio" name="q3" value="C" class="mr-2"/>C) El PBI real es menor al PBI potencial y el desempleo cíclico aumenta</label>
+      <label class="flex items-center"><input type="radio" name="q3" value="D" class="mr-2"/>D) El empleo alcanza el pleno empleo</label>
+    </div>
+
+    <!-- Pregunta 4 -->
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">4. Según el caso de Michigan (Parkin), ¿qué explicó el alto desempleo?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q4" value="A" class="mr-2"/>A) Solo hubo caída del PBI real</label>
+      <label class="flex items-center"><input type="radio" name="q4" value="B" class="mr-2"/>B) Solo hubo desempleo estructural</label>
+      <label class="flex items-center"><input type="radio" name="q4" value="C" class="mr-2"/>C) Solo hubo desempleo friccional</label>
+      <label class="flex items-center"><input type="radio" name="q4" value="D" class="mr-2"/>D) Hubo caída del PBI real y también hubo desempleo estructural</label>
+    </div>
+
+    <!-- Pregunta 5 -->
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">5. ¿Cómo responde el consumidor ante la inflación?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q5" value="A" class="mr-2"/>A) Se reduce el ahorro debido a la pérdida de valor del dinero</label>
+      <label class="flex items-center"><input type="radio" name="q5" value="B" class="mr-2"/>B) Se incrementa el ahorro por temor a crisis</label>
+      <label class="flex items-center"><input type="radio" name="q5" value="C" class="mr-2"/>C) Las personas tienden a comprar anticipadamente antes de que los precios suban más</label>
+      <label class="flex items-center"><input type="radio" name="q5" value="D" class="mr-2"/>D) La demanda disminuye y el consumo se paraliza</label>
+    </div>
+
+    <!-- Pregunta 6 -->
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">6. ¿Por qué debe ser representativa la canasta del IPC?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q6" value="A" class="mr-2"/>A) Porque así se evitan los sesgos en el PBI real</label>
+      <label class="flex items-center"><input type="radio" name="q6" value="B" class="mr-2"/>B) Se refleja con precisión los hábitos reales de consumo de la población</label>
+      <label class="flex items-center"><input type="radio" name="q6" value="C" class="mr-2"/>C) Permite calcular el tipo de cambio</label>
+      <label class="flex items-center"><input type="radio" name="q6" value="D" class="mr-2"/>D) Para medir el desempleo de manera indirecta</label>
+    </div>
+
+    <!-- Pregunta 7 -->
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">7. ¿Qué efecto tiene modificar el peso de los productos en la canasta del IPC?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q7" value="A" class="mr-2"/>A) A que el IPC refleje de manera errónea el cambio de precios</label>
+      <label class="flex items-center"><input type="radio" name="q7" value="B" class="mr-2"/>B) A que se mida el PBI de manera más precisa</label>
+      <label class="flex items-center"><input type="radio" name="q7" value="C" class="mr-2"/>C) A que aumente el desempleo estructural</label>
+      <label class="flex items-center"><input type="radio" name="q7" value="D" class="mr-2"/>D) A que se reduzca la inflación esperada</label>
+    </div>
+
+    <!-- Pregunta 8 -->
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">8. ¿Qué términos describen el aumento y la disminución de precios?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q8" value="A" class="mr-2"/>A) Se genera inflación y deflación</label>
+      <label class="flex items-center"><input type="radio" name="q8" value="B" class="mr-2"/>B) Se genera recesión y expansión</label>
+      <label class="flex items-center"><input type="radio" name="q8" value="C" class="mr-2"/>C) Se genera desempleo y empleo</label>
+      <label class="flex items-center"><input type="radio" name="q8" value="D" class="mr-2"/>D) Se genera déficit y superávit</label>
+    </div>
+
+    <!-- Pregunta 9 -->
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">9. ¿Cuáles son los principales sesgos del IPC?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q9" value="A" class="mr-2"/>A) Sesgo por gasto público, tipo de cambio y deuda externa</label>
+      <label class="flex items-center"><input type="radio" name="q9" value="B" class="mr-2"/>B) Sesgo por sustitución de artículos, de tiendas, bienes nuevos y calidad</label>
+      <label class="flex items-center"><input type="radio" name="q9" value="C" class="mr-2"/>C) Sesgo por brecha de producción y empleo</label>
+      <label class="flex items-center"><input type="radio" name="q9" value="D" class="mr-2"/>D) Sesgo por inflación y deflación</label>
+    </div>
+
+    <!-- Pregunta 10 -->
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">10. ¿Cuál es la ventaja del IPC encadenado?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q10" value="A" class="mr-2"/>A) Reduce la inflación estructural</label>
+      <label class="flex items-center"><input type="radio" name="q10" value="B" class="mr-2"/>B) Elimina el desempleo friccional</label>
+      <label class="flex items-center"><input type="radio" name="q10" value="C" class="mr-2"/>C) Se actualiza regularmente y refleja mejor los hábitos de consumo actuales</label>
+      <label class="flex items-center"><input type="radio" name="q10" value="D" class="mr-2"/>D) Mantiene la canasta fija por más tiempo</label>
+    </div>
+
+    <!-- Pregunta 11 -->
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">11. ¿Qué mide el deflactor del PBI?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q11" value="A" class="mr-2"/>A) El número de empleos perdidos en una economía</label>
+      <label class="flex items-center"><input type="radio" name="q11" value="B" class="mr-2"/>B) El cambio en el valor de la moneda local frente a otra</label>
+      <label class="flex items-center"><input type="radio" name="q11" value="C" class="mr-2"/>C) El nivel de desempleo estructural</label>
+      <label class="flex items-center"><input type="radio" name="q11" value="D" class="mr-2"/>D) Mide la variación del nivel general de precios de todos los bienes y servicios producidos internamente</label>
+    </div>
+
+    <!-- Pregunta 12 -->
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">12. ¿Qué define a la inflación subyacente?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q12" value="A" class="mr-2"/>A) La inflación más baja registrada en el año</label>
+      <label class="flex items-center"><input type="radio" name="q12" value="B" class="mr-2"/>B) La inflación de productos agrícolas únicamente</label>
+      <label class="flex items-center"><input type="radio" name="q12" value="C" class="mr-2"/>C) La inflación provocada por el tipo de cambio</label>
+      <label class="flex items-center"><input type="radio" name="q12" value="D" class="mr-2"/>D) Excluye los elementos volátiles como alimentos y combustibles</label>
+    </div>
+
+    <!-- Pregunta 13 -->
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">13. ¿Por qué se complementa el IPC con otros índices como el deflactor del PBI?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q13" value="A" class="mr-2"/>A) Porque el IPC no mide el tipo de cambio</label>
+      <label class="flex items-center"><input type="radio" name="q13" value="B" class="mr-2"/>B) Porque el IPC mide solo el desempleo</label>
+      <label class="flex items-center"><input type="radio" name="q13" value="C" class="mr-2"/>C) Porque el IPC mide solo la inversión pública</label>
+      <label class="flex items-center"><input type="radio" name="q13" value="D" class="mr-2"/>D) Porque el IPC tiene limitaciones y puede presentar sesgos que distorsionan la realidad inflacionaria</label>
+    </div>
+
+    <!-- Pregunta 14 -->
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">14. ¿Cuál de las siguientes situaciones es un ejemplo de desempleo friccional?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q14" value="A" class="mr-2"/>A) Una empresa despide empleados por quiebra</label>
+      <label class="flex items-center"><input type="radio" name="q14" value="B" class="mr-2"/>B) Un trabajador despedido por falta de habilidades actuales</label>
+      <label class="flex items-center"><input type="radio" name="q14" value="C" class="mr-2"/>C) Un joven recién egresado que busca su primer empleo</label>
+      <label class="flex items-center"><input type="radio" name="q14" value="D" class="mr-2"/>D) Un trabajador reemplazado por una máquina</label>
+    </div>
+
+    <!-- Pregunta 15 -->
+    <div class="border-l-4 border-green-500 p-4 rounded bg-white">
+      <p class="font-semibold">15. ¿Qué indicador permite comparar el poder adquisitivo entre países?</p>
+      <label class="flex items-center mt-2"><input type="radio" name="q15" value="A" class="mr-2"/>A) Tasa de desempleo</label>
+      <label class="flex items-center"><input type="radio" name="q15" value="B" class="mr-2"/>B) IPC</label>
+      <label class="flex items-center"><input type="radio" name="q15" value="C" class="mr-2"/>C) Deflactor del PBI</label>
+      <label class="flex items-center"><input type="radio" name="q15" value="D" class="mr-2"/>D) La paridad del poder adquisitivo (PPA)</label>
+    </div>
+
+    <button type="button" id="submitBtn" class="mt-6 bg-green-600 text-white px-6 py-3 rounded hover:bg-green-700 transition">
+      Enviar Respuestas
+    </button>
+  </form>
+
+  <div id="resultado" class="w-full max-w-3xl mt-8 bg-white p-6 rounded-lg shadow-lg hidden"></div>
+
+  <script>
+    const quizForm = document.getElementById('quizForm');
+    const resultado = document.getElementById('resultado');
+    const correctAnswers = {
+      1:'B', 2:'C', 3:'C', 4:'D', 5:'C',
+      6:'B', 7:'A', 8:'A', 9:'B', 10:'C',
+      11:'D', 12:'D', 13:'D', 14:'C', 15:'D'
+    };
+
+    document.getElementById('submitBtn').addEventListener('click', () => {
+      let feedback = '';
+      let correctCount = 0;
+
+      for (let i = 1; i <= 15; i++) {
+        const answer = quizForm.elements['q'+i].value;
+        if (answer === correctAnswers[i]) {
+          correctCount++;
+          feedback += `<p class="text-green-600">Pregunta ${i} correcta.</p>`;
+        } else {
+          feedback += `<p class="text-red-600">Pregunta ${i} incorrecta. La respuesta correcta es "${correctAnswers[i].toLowerCase()}".</p>`;
+        }
+      }
+
+      feedback += `<p class="font-semibold mt-4">Puntuación: ${correctCount} de 15</p>`;
+      resultado.innerHTML = feedback;
+      resultado.classList.remove('hidden');
+      resultado.scrollIntoView({ behavior: 'smooth' });
+    });
+  </script>
+</body>
+</html>
